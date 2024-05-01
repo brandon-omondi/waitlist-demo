@@ -15,7 +15,7 @@ function App() {
         <TwoCol/>
         <Cool/>
         <Gif />
-        <div className="bg-[url('src/assets/zz.svg')] bg-cover">
+        <div className="bg-[url('https://i.postimg.cc/3Nfd6TFR/zz.png')] bg-cover">
           <LastCTA/>
           <Footer/>
         </div>

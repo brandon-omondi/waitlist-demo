@@ -28,15 +28,15 @@ export function TwoCol() {
 
     return(
         <div className="c-container flex gap-2 mt-2 w-full h-[650px]">
-            <div className="c-leftside text-white w-1/2 mt-10">
+            <div className="c-leftside w-1/2 mt-10">
                 <div className="text-[56px] font-bold text-nowrap">
-                    <h1>Something new <br className=" opacity-40"/> for every student</h1>
+                    <h1 className='leading-[56px] text-white'>Something new <br className="opacity-40"/> for every student</h1>
                 </div>
-                <p className="mt-4 w-[444px] text-justify text-xl font-normal leading-6 opacity-60">Our team has been working on an exciting product to make spending much cheaper for students, forever!
+                <p className="mt-4 w-[444px] text-white text-justify text-xl font-normal leading-6 opacity-60">Our team has been working on an exciting product to make spending much cheaper for students, forever!
 
 And now, you can become the very first user and get lifetime student discounts for free.</p>
                 <div className="flex items-center gap-2 mt-5 " id="2">
-                    <form className="flex flex-col items-start gap-1" autoComplete="off" onSubmit={handleSubmit}>
+                    <form className="flex flex-col items-start gap-1 text-white" autoComplete="off" onSubmit={handleSubmit}>
                         <label htmlFor="">Name</label>
                         <input className="bg-transparent mt-4 border-b-2 w-[300px] text-white " type="text" placeholder="Full Name" 
                         onChange={(e)=>setName(e.target.value)}
