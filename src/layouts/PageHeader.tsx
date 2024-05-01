@@ -1,4 +1,4 @@
-import tribelogo from "../images/tribelogo.png"
+// import tribelogo from "../images/tribelogo.png"
 
 export function PageHeader () {
     const openGoogleForm = () => {
@@ -9,7 +9,7 @@ export function PageHeader () {
         <div className="c-nav flex gap-5 lg:gap-10 items-center">
             <div className="c-logo flex mt-4">
                 <button>
-                    <img src={tribelogo} alt="" />
+                    <img src="https://i.postimg.cc/t7QxBD4m/tribelogo.png" alt="" />
                 </button>
             </div>
             <div className="c-right flex mt-4 gap-3 lg:gap-6">

@@ -9,7 +9,7 @@ import { TwoCol } from './layouts/TwoCol'
 function App() {
 
   return (
-    <div className="bg-[url('src/images/bimg.jpg')] bg-cover">
+    <div className="bg-[url('https://i.postimg.cc/VNDXzjKd/bimg.jpg')] bg-cover">
       <div className='ml-40 mr-20'>
         <PageHeader/>
         <TwoCol/>
