@@ -8,15 +8,15 @@ export default {
   ],
   theme: {
 
-    // colors: {
-    //   "ora": "#F58A4D",
-    //   "pur": "#656EF4",
-    // },
     extend: {
-      // backgroundImage: {
-      //   "big":"url(../assets/bg-image.jpg)"
-      // },
+      colors: {
+        cards:"#3A3A3A",
+      },
+      
     },
+    fontFamily:{
+      poppins:["Poppins", "sans-serif"],
+    }
   },
   plugins: [],
 }
