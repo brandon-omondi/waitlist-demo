@@ -1,4 +1,4 @@
-import mock2 from "../assets/mock2.png"
+import mock2 from "../images/mock2.png"
 import {useState} from 'react'
 import axios from 'axios'
 
@@ -18,7 +18,7 @@ export function TwoCol() {
     const data = {
       name,email,phone
     }
-    axios.post('https://sheet.best/api/sheets/d27c2720-6543-41c9-a944-1535f79aec86',data).then(response=>{
+    axios.post('https://sheet.best/api/sheets/d27c2720-6543-41c9-a944-1535f79aec86',data).then(_response=>{
     //   console.log(response);
       setName('');
       setEmail('');

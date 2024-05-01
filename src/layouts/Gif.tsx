@@ -1,5 +1,3 @@
-import g5 from "../assets/g5.gif"
-
 export function Gif() {
     return(
         <div className=" flex mt-8 mb-10 w-full justify-center items-center space-x-10">

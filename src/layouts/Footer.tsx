@@ -1,7 +1,7 @@
-import ig from "../assets/ig.png"
-import fb from "../assets/fb.png"
-import x from "../assets/x.png"
-import tik from "../assets/tik.png"
+import ig from "../images/ig.png"
+import fb from "../images/fb.png"
+import x from "../images/x.png"
+import tik from "../images/tik.png"
 
 export function Footer() {
     return(

@@ -1,4 +1,4 @@
-import tribelogo from "../assets/tribelogo.png"
+import tribelogo from "../images/tribelogo.png"
 
 export function PageHeader () {
     const openGoogleForm = () => {
