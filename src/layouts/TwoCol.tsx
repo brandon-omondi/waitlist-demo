@@ -30,7 +30,7 @@ export function TwoCol() {
         <div className="c-container flex gap-2 mt-2 w-full h-[650px]">
             <div className="c-leftside w-1/2 mt-10">
                 <div className="text-[56px] font-bold text-nowrap">
-                    <h1 className='leading-[56px] text-white'>Something new <br className="opacity-40"/> for every student</h1>
+                    <h1 className='leading-[56px] text-white'>Something new <br/><span className="opacity-40">for every student</span></h1>
                 </div>
                 <p className="mt-4 w-[444px] text-white text-justify text-xl font-normal leading-6 opacity-60">Our team has been working on an exciting product to make spending much cheaper for students, forever!
 
