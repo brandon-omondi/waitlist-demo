@@ -55,7 +55,7 @@ And now, you can become the very first user and get lifetime student discounts f
                 {/* <p className="self-stretch text-white text-xl font-normal leading-6 opacity-60 mt-4">We’re really honest guys and won’t send you ads.<br/> We will write only once when our platform is ready.</p> */}
             </div>
             <div className="c-rightside w-1/2">
-                <img className=" mt-2 ml-48 pt-2 h-[600px] w-[300px] shrink-0" src="https://i.postimg.cc/0yvtQ00f/mock2.png" alt="" />
+                <img className=" mt-2 px-10 pt-2 h-[600px] w-[600px] shrink-0" src="https://i.postimg.cc/Hshr9XzC/twin.png" alt="" />
             </div>
         </div>
     )
