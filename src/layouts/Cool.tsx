@@ -1,6 +1,6 @@
 export function Cool() {
     return(
-        <div className="c-container mb-80 md:mb-40  h-[270px] font-poppins text-white">
+        <div className="c-container mb-[333px] md:mb-40  h-[270px] font-poppins text-white">
             <h1 className=" flex justify-center items-center font-bold text-[40px] leading-[56px] mb-10">Why it’s cool?</h1>
             <div className="c-why flex flex-col md:flex-row h-full items-center mt-4 px-10 justify-center md:space-x-20 space-y-10 md:space-y-0 mb:20">
                 <div className="c-save bg-cards md:w-[420px] h-full px-5 pt-3 pb-4 rounded-3xl text-justify">
