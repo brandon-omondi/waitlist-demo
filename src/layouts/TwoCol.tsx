@@ -27,9 +27,9 @@ export function TwoCol() {
 
 
     return(
-        <div className="c-container flex flex-col md:flex-row gap-2 mt-2 w-full md:h-[650px]">
-            <div className="c-leftside w-1/2 mt-10 mr-5 md:mr-0 ">
-                <div className="text-[28px] md:text-[56px] font-bold text-pretty">
+        <div className="c-container flex flex-col md:flex-row gap-2 mt-2 md:h-[650px]">
+            <div className="c-leftside w-full md:w-1/2 mt-10 mr-5 md:mr-0 ">
+                <div className="text-[28px] md:text-[56px] font-bold text-pretty w-full">
                     <h1 className='leading-[36px] md:leading-[60px] text-white font-poppins text-pretty'>Something new <br/><span className="opacity-40 text-pretty">for every student</span></h1>
                 </div>
                 <p className="mt-4 w-[444px] text-white text-justify text-lg md:text-xl font-poppins font-normal leading-6 opacity-60">Our team has been working on an exciting product to make spending much cheaper for students, forever!
