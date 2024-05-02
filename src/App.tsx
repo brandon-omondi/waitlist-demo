@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="bg-[url('https://i.postimg.cc/VNDXzjKd/bimg.jpg')] bg-cover">
-      <div className='ml-5 mr-5 md:ml-40 md:mr-20'>
+      <div className='ml-5 mr-5 md:ml-32 md:mr-20'>
         <PageHeader/>
         <TwoCol/>
         <Cool/>
