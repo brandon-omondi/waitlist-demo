@@ -29,14 +29,14 @@ export function TwoCol() {
     return(
         <div className="c-container flex flex-col md:flex-row gap-2 mt-2 w-full md:h-[650px]">
             <div className="c-leftside w-1/2 mt-10">
-                <div className="text-[46px] md:text-[56px] mx-10 md:mx-0  font-bold text-nowrap">
-                    <h1 className='leading-[60px] text-white font-poppins'>Something new <br/><span className="opacity-40">for every student</span></h1>
+                <div className="text-[36px] md:text-[56px] font-bold text-nowrap">
+                    <h1 className='leading-[36px] md:leading-[60px] text-white font-poppins text-nowrap'>Something new <br/><span className="opacity-40 text-nowrap">for every student</span></h1>
                 </div>
                 <p className="mt-4 w-[444px] text-white text-justify text-xl font-poppins font-normal leading-6 opacity-60">Our team has been working on an exciting product to make spending much cheaper for students, forever!
 
 And now, you can become the very first user and get lifetime student discounts for free.</p>
                 <div className="flex items-center font-poppins gap-2 mt-8" id="2">
-                    <form className="flex flex-col ml-20 md:ml-0 items-start gap-1 text-white" autoComplete="off" onSubmit={handleSubmit}>
+                    <form className="flex flex-col ml-5 md:ml-0 items-start gap-1 text-white" autoComplete="off" onSubmit={handleSubmit}>
                         <label htmlFor="">Name</label>
                         <input className="bg-transparent mt-2 mb-3 border-b-2 w-[300px] text-white " type="text" placeholder="Full Name" 
                         onChange={(e)=>setName(e.target.value)}
