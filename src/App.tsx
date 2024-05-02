@@ -15,10 +15,10 @@ function App() {
         <TwoCol/>
         <Cool/>
         <Gif />
-        <div className="bg-[url('https://i.postimg.cc/3Nfd6TFR/zz.png')] bg-cover">
+      </div>
+      <div className="bg-[url('https://i.postimg.cc/3Nfd6TFR/zz.png')] bg-cover ml-5 mr-5 md:ml-0 md:mr-0">
           <LastCTA/>
           <Footer/>
-        </div>
       </div>
     </div>    
   )
