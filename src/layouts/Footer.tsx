@@ -6,7 +6,7 @@
 export function Footer() {
     return(
         <div className="flex flex-col font-poppins justify-center items-center text-white">
-        <h1 className=" text-white text-center text-2xl font-bold leading-8 mt-8">We are just starting this journey, <br/> it’d be cool if you tagged along!</h1>
+        <h1 className=" text-white text-center md:text-2xl font-bold leading-8 mt-8">We are just starting this journey, <br/> it’d be cool if you tagged along!</h1>
         <div className="flex items-start gap-5 opacity-50 mt-7">
             <div><img src="https://i.postimg.cc/pTS8FPbv/ig.png" alt="" /></div>
             <div><img src="https://i.postimg.cc/sfBH0X2p/x.png" alt="" /></div>
