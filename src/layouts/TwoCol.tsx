@@ -27,16 +27,16 @@ export function TwoCol() {
 
 
     return(
-        <div className="c-container flex gap-2 mt-2 w-full h-[650px]">
+        <div className="c-container flex flex-col md:flex-row gap-2 mt-2 w-full md:h-[650px]">
             <div className="c-leftside w-1/2 mt-10">
-                <div className="text-[56px] font-bold text-nowrap">
-                    <h1 className='leading-[56px] text-white font-poppins'>Something new <br/><span className="opacity-40">for every student</span></h1>
+                <div className="text-[46px] md:text-[56px] font-bold text-nowrap">
+                    <h1 className='leading-[46px] text-white font-poppins'>Something new <br/><span className="opacity-40">for every student</span></h1>
                 </div>
                 <p className="mt-4 w-[444px] text-white text-justify text-xl font-poppins font-normal leading-6 opacity-60">Our team has been working on an exciting product to make spending much cheaper for students, forever!
 
 And now, you can become the very first user and get lifetime student discounts for free.</p>
                 <div className="flex items-center font-poppins gap-2 mt-5 " id="2">
-                    <form className="flex flex-col items-start gap-1 text-white" autoComplete="off" onSubmit={handleSubmit}>
+                    <form className="flex flex-col ml-20 md:ml-5 items-start gap-1 text-white" autoComplete="off" onSubmit={handleSubmit}>
                         <label htmlFor="">Name</label>
                         <input className="bg-transparent mt-4 border-b-2 w-[300px] text-white " type="text" placeholder="Full Name" 
                         onChange={(e)=>setName(e.target.value)}
@@ -54,8 +54,8 @@ And now, you can become the very first user and get lifetime student discounts f
                 </div>
                 {/* <p className="self-stretch text-white text-xl font-normal leading-6 opacity-60 mt-4">We’re really honest guys and won’t send you ads.<br/> We will write only once when our platform is ready.</p> */}
             </div>
-            <div className="c-rightside w-1/2">
-                <img className=" mt-2 px-10 pt-2 h-[600px] w-[600px] shrink-0" src="https://i.postimg.cc/Hshr9XzC/twin.png" alt="" />
+            <div className="c-rightside md:w-1/2">
+                <img className=" mt-2 px-10 pt-2 md:h-[600px] md:w-[600px] shrink-0" src="https://i.postimg.cc/Hshr9XzC/twin.png" alt="" />
             </div>
         </div>
     )
