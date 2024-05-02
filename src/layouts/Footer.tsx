@@ -13,7 +13,7 @@ export function Footer() {
             <div><img src="https://i.postimg.cc/C5f8C9Sq/tik.png" alt="" /></div>
             <div><img src="https://i.postimg.cc/k4GKGBHw/fb.png" alt="" /></div>
         </div>
-        <h3 className="self-stretch text-white text-center text-xl font-normal leading-6 opacity-50 mt-7 mb-4">© 2024 All Rights Reserved. StudenTribe, Ltd</h3>
+        <h3 className="self-stretch text-white text-center md:text-xl font-normal leading-6 opacity-50 mt-7 mb-4">© 2024 All Rights Reserved. StudenTribe, Ltd</h3>
         </div>
     )
 }
